@@ -15,15 +15,3 @@ class ChattyStudent(Student):
         for i in range(10):
             super().raise_hand()
 
-
-if __name__ == "__main__":
-    chatty_student = ChattyStudent()
-
-    # Test hello method
-    print("Testing hello method:")
-    chatty_student.hello()
-    print()
-
-    # Test raise_hand method
-    print("Testing raise_hand method:")
-    chatty_student.raise_hand()
